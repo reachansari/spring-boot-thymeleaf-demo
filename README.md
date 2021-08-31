@@ -2,13 +2,12 @@
 This project depicts the Spring Boot Example with Thymeleaf
 
 ## Description
-This Project shows the list of Users which are stored in the In-Memory H2 Database. 
-- `http://localhost:8080/books` - This returns a list of Authors and publishers in html Thymeleaf template with data pre-populated  and tables created in H2
+This Project shows the list of Authors and publisher which are stored in the In-Memory H2 Database. 
+- `http://localhost:8080/books` - This returns a list of Authors and publishers in Thymeleaf html template with pre-populated data.
 
 
 ## Libraries used
 - Java 8
-- Spring Boot
 - Spring Boot
 - Spring Controller
 - Spring JPA
