@@ -1,7 +1,8 @@
-package com.oyster.product.demo.repositories;
+package com.product.demo.repositories;
 
-import com.oyster.product.demo.model.Book;
 import org.springframework.data.repository.CrudRepository;
+
+import com.product.demo.model.Book;
 
 public interface BookRepository extends CrudRepository<Book,Long> {
 

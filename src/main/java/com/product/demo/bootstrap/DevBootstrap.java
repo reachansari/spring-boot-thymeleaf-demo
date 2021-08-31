@@ -1,11 +1,12 @@
-package com.oyster.product.demo.bootstrap;
+package com.product.demo.bootstrap;
 
-import com.oyster.product.demo.model.Author;
-import com.oyster.product.demo.model.Book;
-import com.oyster.product.demo.model.Publisher;
-import com.oyster.product.demo.repositories.AuthorRepository;
-import com.oyster.product.demo.repositories.BookRepository;
-import com.oyster.product.demo.repositories.PublisherRepository;
+import com.product.demo.model.Author;
+import com.product.demo.model.Book;
+import com.product.demo.model.Publisher;
+import com.product.demo.repositories.AuthorRepository;
+import com.product.demo.repositories.BookRepository;
+import com.product.demo.repositories.PublisherRepository;
+
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;

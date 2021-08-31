@@ -1,8 +1,9 @@
-package com.oyster.product.demo.repositories;
+package com.product.demo.repositories;
 
-import com.oyster.product.demo.model.Author;
-import com.oyster.product.demo.model.Publisher;
 import org.springframework.data.repository.CrudRepository;
+
+import com.product.demo.model.Author;
+import com.product.demo.model.Publisher;
 
 public interface PublisherRepository extends CrudRepository<Publisher,Long> {
 }

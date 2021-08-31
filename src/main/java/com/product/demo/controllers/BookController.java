@@ -1,9 +1,10 @@
-package com.oyster.product.demo.controllers;
+package com.product.demo.controllers;
 
-import com.oyster.product.demo.repositories.BookRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.product.demo.repositories.BookRepository;
 
 @Controller
 public class BookController {

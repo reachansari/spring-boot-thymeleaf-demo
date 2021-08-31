@@ -1,4 +1,4 @@
-package com.oyster.product.demo.model;
+package com.product.demo.model;
 
 import javax.persistence.*;
 import java.util.HashSet;

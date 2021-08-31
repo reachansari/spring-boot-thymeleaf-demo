@@ -1,4 +1,4 @@
-package com.oyster.product.demo;
+package com.product.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
