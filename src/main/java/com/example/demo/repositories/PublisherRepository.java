@@ -1,9 +1,8 @@
-package com.product.demo.repositories;
+package com.example.demo.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 
-
-import com.product.demo.model.Publisher;
+import com.example.demo.model.Publisher;
 
 public interface PublisherRepository extends CrudRepository<Publisher,Long> {
 }

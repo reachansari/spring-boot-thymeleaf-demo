@@ -1,4 +1,4 @@
-package com.product.demo.model;
+package com.example.demo.model;
 
 import javax.persistence.*;
 import java.util.HashSet;

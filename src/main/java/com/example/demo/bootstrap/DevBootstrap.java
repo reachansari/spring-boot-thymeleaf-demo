@@ -1,11 +1,11 @@
-package com.product.demo.bootstrap;
+package com.example.demo.bootstrap;
 
-import com.product.demo.model.Author;
-import com.product.demo.model.Book;
-import com.product.demo.model.Publisher;
-import com.product.demo.repositories.AuthorRepository;
-import com.product.demo.repositories.BookRepository;
-import com.product.demo.repositories.PublisherRepository;
+import com.example.demo.model.Author;
+import com.example.demo.model.Book;
+import com.example.demo.model.Publisher;
+import com.example.demo.repositories.AuthorRepository;
+import com.example.demo.repositories.BookRepository;
+import com.example.demo.repositories.PublisherRepository;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
