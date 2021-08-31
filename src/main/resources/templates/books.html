@@ -6,17 +6,17 @@
 
     <meta charset="UTF-8"/>
 
-    <title>Oyster Thymeleaf</title>
+    <title>Thymeleaf Table</title>
 
 </head>
 
 <body>
 
-<h1>Book List</h1>
+<h1>Simple Book List Table</h1>
 
 
 
-<table>
+<table border="1">
 
     <tr>
 
@@ -30,11 +30,11 @@
 
     <tr th:each="book : ${books}">
 
-        <td th:text="${book.id}">123</td>
+        <td th:text="${book.id}"/>
 
-        <td th:text="${book.title}">Spring in Action</td>
+        <td th:text="${book.title}"/>
 
-        <td th:text="${book.publisher.name}">Wrox</td>
+        <td th:text="${book.publisher.name}"/>
 
     </tr>
 
